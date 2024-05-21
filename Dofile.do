@@ -1,11 +1,11 @@
+#Stata Dofile 
 clear 
-cd "C:\Users\Micah Mayanja\Documents\Side Work\Data Analysis\Drought data study"
+cd "C:\Users\....\Drought data study"
 
-import excel "C:\Users\Micah Mayanja\Documents\Side Work\Data Analysis\Drought data study\Predictors_Copying to droughts new.xls",sheet("Sheet1") firstrow
+import excel "C:\Users\...\Drought data study\Predictors_Copying to droughts new.xls",sheet("Sheet1") firstrow
 
 
 browse 
-
 destring, replace 
 
 recode Numberofanimalsdied (0/5=0) (6/22=1), gen(numdied)
