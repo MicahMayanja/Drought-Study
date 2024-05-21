@@ -1,4 +1,3 @@
-# Clear the Environment
 rm(list = ls())
 
 setwd("C:/Users/.../Drought data study")
