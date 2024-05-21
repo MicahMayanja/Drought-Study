@@ -1,7 +1,7 @@
 # Clear the Environment
 rm(list = ls())
 
-setwd("C:/Users/micah/OneDrive/Documents/Side Work/Data Analysis/Drought data study")
+setwd("C:/Users/.../Drought data study")
 
 library(readxl)
 df <- read_excel("Predictors_Copying to droughts new.xls")
